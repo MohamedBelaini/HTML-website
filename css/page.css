@@ -1,0 +1,160 @@
+:root {
+    --color: rgb(86, 234, 6);
+    --bgSoft: #efefef;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Tahoma, Verdana, sans-serif;
+}
+/* All style */
+span {
+    color: var(--color);
+}
+/* container style */
+/* start header */
+.Header {
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    z-index: 2;
+    box-shadow: 0 3px 3px #ddd;
+}
+.Logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 20px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.Logo h3 {
+    color: #000;
+    font-size: 38px;
+}
+ .Logo img {
+    color: var(--color);
+    width: 50px;
+    height: 50px;
+}
+.Navbar {
+    margin-right: 50px;
+    padding: 20px;
+    display: flex;
+    gap: 40px;
+}
+.Navbar li{
+    font-size: 18px;
+    list-style: none;
+    padding: 8px 20px;
+    border-radius: 3px;
+    border: #fff;
+    transition: 0.5s;
+}
+.Navbar li a {
+    text-decoration: none;
+    color: #000;
+}
+.Navbar li:hover{
+    box-shadow: 5px 5px;
+    background-color: var(--color);
+}
+/* end header */
+/* start landing_page */
+.landing_page {
+   display: flex;
+   height: 800px;
+   background-color: var(--bgSoft);
+   padding: 30px;
+}
+.content {
+   padding: 20px;
+   flex: 1;
+   margin-top: 200px;
+}
+.content h1{
+   font-size: 30px;
+   padding: 20px;
+}
+.content p{
+    padding: 0 20px ;
+}
+.image {
+   margin-top: 100px;
+   flex: 1;
+}
+.image img {
+    width: 100%;
+}
+/* end landing_page */
+/* end Tipi  di Algoritmi  */
+.Tipi_Algoritmi {
+    background-color: var(--bgSoft);
+    display: flex;
+    height: 800px;
+    flex-direction: column;
+    padding: 30px;
+}
+.Tipi_Algoritmi h1 {
+    margin: auto;
+    padding: 10px 20px;
+    background-color: var(--color);
+    border-radius: 3px;
+    transition: 0.5s;
+}
+.Tipi_Algoritmi h1:hover{
+    box-shadow: 5px 5px;
+    background-color: var(--color);
+}
+.Tipi_Algoritmi .container {
+    display: flex;
+    gap: 10px;
+}
+.Tipi_Algoritmi .tipi{
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    height: 100vh;
+    gap: 40px;
+}
+.Tipi_Algoritmi .tipi button{
+   width: 90%;
+   padding: 20px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: 0.5s;
+   font-size: 20px;
+   border: none;
+   background-color: #ddd;
+}
+.span_btn {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Tipi_Algoritmi .tipi button:hover{
+    background-color: var(--color);
+}
+.Tipi_Algoritmi .infor{
+    margin: 50px auto;
+    width: 80%;
+    height: 650px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #ddd;
+}
+.Tipi_Algoritmi .img_info {
+   width: 25px;
+   height: 25px;
+}
+.Tipi_Algoritmi .infor .text{
+    margin-top: 30px;
+    font-size: 18px;
+}
+/* end Tipi  di Algoritmi  */
