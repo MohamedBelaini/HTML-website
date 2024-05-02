@@ -8,8 +8,6 @@ body {
     display: flex; 
     flex-direction: column;
     gap: 20px;
-    width: 90%;
-    margin: auto;
     height: 100vh;
  
 }
@@ -18,9 +16,10 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 20%;
+    height: 10%;
     gap: 30px;
     padding: 20px;
+    background-color: #fff;
 }
 .hed button {
     width: 140px;
@@ -35,5 +34,5 @@ body {
 .content {
     margin: auto;
     padding: 20px;
-    height: 80%;
+    height: 90%;
 }
