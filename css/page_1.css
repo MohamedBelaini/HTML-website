@@ -1,10 +1,5 @@
-body {
-    font-family: Tahoma, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #ddd;
-}
-.container{
+
+.container1{
     display: flex; 
     flex-direction: column;
     gap: 20px;
@@ -24,15 +19,45 @@ body {
 .hed button {
     width: 140px;
     height: 50px;
-    background-color: rgb(86, 234, 6);
+    background-color: #ddd;
     border: none;
+    transition: 0.3s;
     font-weight: bold;
     box-shadow: 5px 5px;
     border-radius: 5px;
     cursor: pointer;
 }
-.content {
+.hed button:hover {
+    background-color: rgb(86, 234, 6);;
+}
+.content1 {
+
     margin: auto;
     padding: 20px;
     height: 90%;
+}
+.sp {
+    color: rgb(61, 61, 218);
+}
+.soluzioni {
+    padding: 20px;
+    height: 100vh;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+}
+.soluzioni h1{
+    margin: auto;
+    padding: 10px 20px;
+    background-color: rgb(209, 245, 49);
+    border-radius: 3px;
+    transition: 0.5s;
+}
+.soluzioni .informazioni{
+    margin: 50px auto;
+    width: 90%;
+    height: 650px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #ddd;
 }
