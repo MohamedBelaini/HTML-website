@@ -1,17 +1,12 @@
-:root {
-    --color: rgb(86, 234, 6);
-    --bgSoft: #efefef;
-}
-* {
+
+body {
+    font-family: Tahoma, Verdana, sans-serif;
     margin: 0;
     padding: 0;
 }
-body {
-    font-family: Tahoma, Verdana, sans-serif;
-}
 /* All style */
 span {
-    color: var(--color);
+    color: rgb(86, 234, 6);
 }
 /* container style */
 /* start header */
@@ -38,7 +33,7 @@ span {
     font-size: 38px;
 }
  .Logo img {
-    color: var(--color);
+    color: rgb(86, 234, 6);
     width: 50px;
     height: 50px;
 }
@@ -62,14 +57,14 @@ span {
 }
 .Navbar li:hover{
     box-shadow: 5px 5px;
-    background-color: var(--color);
+    background-color: rgb(86, 234, 6);
 }
 /* end header */
 /* start landing_page */
 .landing_page {
    display: flex;
    height: 800px;
-   background-color: var(--bgSoft);
+   background-color: #efefef;
    padding: 30px;
 }
 .content {
@@ -94,7 +89,7 @@ span {
 /* end landing_page */
 /* end Tipi  di Algoritmi  */
 .Tipi_Algoritmi {
-    background-color: var(--bgSoft);
+    background-color: #efefef;
     display: flex;
     height: 800px;
     flex-direction: column;
@@ -103,13 +98,13 @@ span {
 .Tipi_Algoritmi h1 {
     margin: auto;
     padding: 10px 20px;
-    background-color: var(--color);
+    background-color: rgb(86, 234, 6);
     border-radius: 3px;
     transition: 0.5s;
 }
 .Tipi_Algoritmi h1:hover{
     box-shadow: 5px 5px;
-    background-color: var(--color);
+    background-color: rgb(86, 234, 6);
 }
 .Tipi_Algoritmi .container {
     display: flex;
@@ -139,7 +134,7 @@ span {
 }
 
 .Tipi_Algoritmi .tipi button:hover{
-    background-color: var(--color);
+    background-color: rgb(86, 234, 6);
 }
 .Tipi_Algoritmi .infor{
     margin: 50px auto;
@@ -157,4 +152,4 @@ span {
     margin-top: 30px;
     font-size: 18px;
 }
-/* end Tipi  di Algoritmi  */
+/* end Tipi  di Argb(86, 234, 6)
